@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --color-primario: #000000;
+    --color-secundario: #F6F6F6;
+    --color-terciario: #FF4500;
+    --color-hover: #272727;
+
+    --fuente-krona: 'Krona One', sans-serif;
+    --fuente-montserrat: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    font-family: var(--fuente-montserrat);
+    font-size: 22.5px; /* Aumentado para que las palabras estén más grandes */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--color-terciario);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-secundario);
+    font-weight: bold;
+    font-size: 2rem; /* Aumentado para hacer los enlaces más grandes */
+}
+
+nav a:hover {
+    color: var(--color-hover);
+}
+
+main {
+    padding: 40px;
+    text-align: center;     
+}
+
+h1, h2 {
+    font-family: var(--fuente-krona);
+    color: var(--color-terciario);
+    font-size: 2rem; /* Aumentado para títulos más grandes */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: var(--color-terciario);
+    color: var(--color-primario);
+}
+
+section {
+    margin-bottom: 60px; /* Agregado para separar las secciones */
+}
+
+
+
+/* Estilos específicos para Principios del Heavy Duty (about.html) */
+#principios-heavy-duty {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+#principios-heavy-duty h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.principio {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid var(--color-terciario);
+    border-radius: 12px;
+    background-color: rgba(255, 69, 0, 0.1);
+}
+
+.principio h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.principio ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.principio p {
+    line-height: 1.8;
+}
+
+
+
+/* Estilos específicos para Ejemplos de Rutinas (routines.html) */
+#ejemplos-rutinas {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+#ejemplos-rutinas h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.rutina {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid var(--color-terciario);
+    border-radius: 12px;
+    background-color: rgba(255, 69, 0, 0.1);
+}
+
+.rutina h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.rutina ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.rutina p {
+    line-height: 1.8;
+}
